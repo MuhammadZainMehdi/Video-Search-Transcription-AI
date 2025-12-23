@@ -164,7 +164,7 @@ if st.button("🚀 Process", type="primary", use_container_width=True):
                     log_text = ""
                     
                     if response.tool_calls:
-                        max_iterations = 5
+                        max_iterations = 10
                         iteration = 0
                         
                         while response.tool_calls and iteration < max_iterations:
